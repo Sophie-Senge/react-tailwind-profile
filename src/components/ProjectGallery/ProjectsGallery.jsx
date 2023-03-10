@@ -6,16 +6,16 @@ function ProjectsGallery() {
     <div>
       {
         projects.map((project, i) => {
-          const buttonStuff = {className: "bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white py-2 px-4 rounded",
-          content: "Live Link"}
+          // const buttonStuff = {className: "bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white py-2 px-4 rounded",
+          // content: "Live Link"}
           const buttonStuff2 = {className: "bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white py-2 px-4 rounded",
           content: "Github Repo"}
           return (
             <div key={i}>
-              <div className="container flex flex-row my-3 rounded-lg shadow-xl bg-blue-500 p-5">
+              <div className="container flex flex-row my-3 rounded-lg shadow-xl bg-gradient-to-r from-purple-900 to-transparent p-5">
                 <div className="flex-auto w-64">
-                   <h5 className="font-bold ">{project.name}</h5>
-                    <p className="text-red-600">{project.description}</p>
+                   <h5 className="font-bold text-xl text-blue-400 font-headings">{project.name}</h5>
+                    <p className="py-4">{project.description}</p>
                   
                     <a href={project.githubLink}><Button props={buttonStuff2}/></a>
                 </div>

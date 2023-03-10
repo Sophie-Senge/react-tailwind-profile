@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 
@@ -17,18 +17,14 @@ function NavBar() {
     },
     {
       id: 3,
-      link: 'skills'
-    },
-    {
-      id: 4,
       link: 'about'
     },
     {
-      id: 5,
+      id: 4,
       link: 'contact'
     },
     {
-      id: 6,
+      id: 5,
       link: 'resume'
     },
 
