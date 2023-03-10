@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project() {
+function Skills() {
   return (
     <div>
       <h1 >Project</h1>
@@ -15,4 +15,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Skills;

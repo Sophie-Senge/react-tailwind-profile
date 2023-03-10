@@ -1,10 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import "./Navtab.css";
+
 
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
+    <div className="bg-indigo-600 bg-opacity-50">
+
+    
+    <ul className="nav ">
       <li className="nav-item">
         <NavLink
           to=""
@@ -18,12 +21,12 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="/project"
+          to="/skills"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Project
+          Skills
         </NavLink>
       </li>
       <li className="nav-item">
@@ -49,6 +52,7 @@ function NavTabs() {
       </li>
      
     </ul>
+    </div>
   );
 }
 
