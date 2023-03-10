@@ -10,11 +10,13 @@ const skills = [
   },
   { "id": 3,
     "skill": "Javascript",
-    "icon": ""
+    "icon": "DiJavascript"
   },
   { "id": 4,
     "skill": "Node.js",
     "icon": ""
   },
 
-]
+];
+
+export default skills

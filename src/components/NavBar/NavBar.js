@@ -1,44 +1,24 @@
 import React, { useState } from 'react';
 // import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import navLinks from './linksdata';
 
 
 function NavBar() {
   const [nav, setNav] = useState(false);
   const signature = "*SP";
-  const links = [
-    {
-      id: 1,
-      link: 'home'
-    },
-    {
-      id: 2,
-      link: 'projects'
-    },
-    {
-      id: 3,
-      link: 'about'
-    },
-    {
-      id: 4,
-      link: 'contact'
-    },
-    {
-      id: 5,
-      link: 'resume'
-    },
 
-  ];
+  
   return (
     <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black backdrop-filter backdrop-blur-lg bg-opacity-30 fixed'>
       <div>
-        <h1 className='text-5xl font-road ml-2'>{signature}</h1>
+        <h1 className='text-5xl font-road ml-2 text-yellow-300'>{signature}</h1>
       </div>
 
       <ul className='hidden md:flex'>
-        {links.map(({ id, link }) => (
+        {navLinks.map(({ id, name }) => (
           <li key={id} className='px-4 cursor-pointer capitalize font-medium hover:scale-105 duration-200'>
-            {link}
+            {name}
           </li>
 
 
@@ -54,7 +34,7 @@ function NavBar() {
 
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-          {links.map(({ id, link }) => (
+          {navLinks.map(({ id, link }) => (
             <li key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl">
               {link}
