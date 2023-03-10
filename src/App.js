@@ -2,9 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
 import Home from './components/pages/Home';
-import Search from './components/Skills';
+import Search from './components/Skills/Skills';
 import ProjectsGallery from './components/ProjectGallery/ProjectsGallery';
 import Contact from './components/pages/Contact';
+import "./fonts/Road_Rage.otf";
 
 
 function App() {

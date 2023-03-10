@@ -11,8 +11,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('./images/background-edited.jpg')",
-        'footer-texture': "url('/img/footer-texture.png')",
-      }
+      },
+      fontFamily: {
+        road: ['Road'],
+        headings: ['Oswald', 'sans-serif']
+
+      },
     },
   },
   plugins: [],
