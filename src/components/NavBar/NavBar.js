@@ -10,9 +10,14 @@ function NavBar() {
 
   
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black backdrop-filter backdrop-blur-lg bg-opacity-30 fixed'>
+  
+    <nav className='fixed top-0 z-10 bg-black backdrop-filter w-full h-20 backdrop-blur-lg bg-opacity-30'>
+     <div className='flex justify-between items-center px-4 text-white'>
+      
+     
+     
       <div>
-        <h1 className='text-5xl font-road ml-2 text-yellow-300'>{signature}</h1>
+        <h1 className=' text-5xl font-road ml-2 text-yellow-300 py-4'>{signature}</h1>
       </div>
 
       <ul className='hidden md:flex'>
@@ -34,16 +39,16 @@ function NavBar() {
 
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-          {navLinks.map(({ id, link }) => (
+          {navLinks.map(({ id, name }) => (
             <li key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl">
-              {link}
+              {name}
             </li>
           ))}
         </ul>
       )}
-
-    </div>
+</div>
+    </nav>
 
   );
 }

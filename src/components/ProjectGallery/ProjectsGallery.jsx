@@ -20,7 +20,7 @@ function ProjectsGallery() {
                     <a href={project.githubLink}><Button props={buttonStuff2}/></a>
                 </div>
                 <div className="flex-auto w-32">
-                <a href={project.deployedLink}> <img className="h-30 w-30 transition duration-500 hover:scale-110 rounded cursor-pointer p-4" src={project.image} alt={project.name} /> </a>
+                <a href={project.deployedLink}> <img className="h-30 w-30 transition duration-500 hover:scale-110 hover:drop-shadow-xl rounded cursor-pointer p-4" src={project.image} alt={project.name} /> </a>
                     
                   </div>
 

@@ -1,4 +1,4 @@
-const skills = [
+const skillsList = [
 
   { "id": 1,
     "skill": "HTML",
@@ -19,4 +19,4 @@ const skills = [
 
 ];
 
-export default skills
+export default skillsList
