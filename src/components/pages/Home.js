@@ -8,9 +8,9 @@ import Skills from "../Skills/Skills";
 function Home() {
  
   return (
-    <div name="home" className="bg-gradient-to-b from-black-700 to-white-500">
+    <div name="home" className="">
 
-    <div className="bg-hero-pattern bg-no-repeat bg-cover bg-center bg-fixed mix-blend-overlay">
+    <div className="bg-hero-pattern bg-no-repeat bg-cover bg-center bg-fixed">
       <Header/>
      
       <ProjectsGallery/>

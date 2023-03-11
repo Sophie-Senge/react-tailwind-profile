@@ -10,11 +10,12 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('./images/background-edited.jpg')",
+        'hero-pattern': "url('./images/IMG_6282.jpg')",
       },
       fontFamily: {
         road: ['Road'],
-        headings: ['Oswald', 'sans-serif']
+        headings: ['Oswald', 'sans-serif'],
+        accent: ['Fira Code', 'monospace']
 
       },
     },

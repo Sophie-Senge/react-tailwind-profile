@@ -4,6 +4,7 @@ import Button from "../Button";
 function ProjectsGallery() {
   return (
     <div>
+      <h2>Some things I've built</h2>
       {
         projects.map((project, i) => {
           // const buttonStuff = {className: "bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white py-2 px-4 rounded",

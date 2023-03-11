@@ -2,15 +2,20 @@ import React from "react";
 import Button from "./Button";
 
 function Header() {
-  const buttonStuff = {className: "drop-shadow-2xl bg-gradient-to-r from-yellow-300 to-transparent-500 hover:from-pink-500 hover:to-yellow-500 text-white py-2 px-4 rounded",
+  const buttonStuff = {className: "drop-shadow-2xl text-indigo-600 border border-indigo-600 py-2 px-4 rounded ml-4 mt-3 font-accent  hover:text-indigo-400 hover:scale-105 duration-200",
   content: "Projects"}
   return (
-    <div className="header max-h-screen h-screen flex flex-col mx-auto items-center justify-center px-4">
-      <h1 className="text-6xl text-amber-400 font-headings drop-shadow-2xl">Hello, I'm Sophie Perks</h1>
-      <p className="py-4 text-white">
-        I'm a Junior Front End Web Developer
-      </p>
+    <div className="header max-h-screen h-screen flex flex-col items-start justify-end p-6">
+      <div className=" bg-gradient-to-tr from-zinc-900 to-transparent">
+      <h2 className="font-accent text-indigo-700 text-2xl drop-shadow-2xl px-4">Hi, my name is</h2>
+      <h1 className="text-6xl text-amber-400 font-bold drop-shadow-2xl p-4">Sophie Perks.</h1>
+      <h2 className="pb-2 px-4 text-amber-100 text-4xl drop-shadow-2xl">
+        I'm a Junior Front End Web Developer.
+      </h2>
       <Button props={buttonStuff}/>
+
+      </div>
+      
     </div>
   );
 }

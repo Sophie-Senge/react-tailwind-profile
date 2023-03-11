@@ -11,7 +11,7 @@ function NavBar() {
   
   return (
   
-    <nav className='fixed top-0 z-10 bg-black backdrop-filter w-full h-20 backdrop-blur-lg bg-opacity-30'>
+    <nav className='fixed top-0 z-10 w-full h-20 bg-black backdrop-filter backdrop-blur-lg bg-opacity-30'>
      <div className='flex justify-between items-center px-4 text-white'>
       
      
@@ -22,7 +22,7 @@ function NavBar() {
 
       <ul className='hidden md:flex'>
         {navLinks.map(({ id, name }) => (
-          <li key={id} className='px-4 cursor-pointer capitalize font-medium hover:scale-105 duration-200'>
+          <li key={id} className='px-4 cursor-pointer text-lg font-accent capitalize text-indigo-700 hover:text-indigo-500 font-medium hover:scale-110 duration-200'>
             {name}
           </li>
 
