@@ -22,7 +22,7 @@ function NavBar() {
 
       <ul className='hidden md:flex'>
         {navLinks.map(({ id, name }) => (
-          <li key={id} className='px-4 cursor-pointer text-lg font-accent capitalize text-indigo-700 hover:text-indigo-500 font-medium hover:scale-110 duration-200'>
+          <li key={id} className='px-4 cursor-pointer text-md font-accent capitalize text-indigo-700 hover:text-indigo-500 hover:scale-110 duration-200'>
             {name}
           </li>
 

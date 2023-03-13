@@ -19,4 +19,4 @@ const skillsList = [
 
 ];
 
-export default skillsList
+export default skills;

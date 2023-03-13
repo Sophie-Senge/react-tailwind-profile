@@ -1,7 +1,8 @@
 import React from "react";
 import ProjectsGallery from "../ProjectGallery/ProjectsGallery";
-import Header from "../Header";
+import Header from "../Jumbotron/Header";
 import Skills from "../Skills/Skills";
+
 
 
 
@@ -12,9 +13,10 @@ function Home() {
 
     <div className="bg-hero-pattern bg-no-repeat bg-cover bg-center bg-fixed">
       <Header/>
-     
+    
       <ProjectsGallery/>
       <Skills/>
+     
     </div>
   
     

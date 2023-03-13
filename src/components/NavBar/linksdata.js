@@ -1,23 +1,23 @@
 const navLinks = [
   {
     id: 1,
-    name: 'home'
+    name: '.home'
   },
   {
     id: 2,
-    name: 'projects'
+    name: '.projects'
   },
   {
     id: 3,
-    name: 'about'
+    name: '.about'
   },
   {
     id: 4,
-    name: 'contact'
+    name: '.contact'
   },
   {
     id: 5,
-    name: 'resume'
+    name: '.resume'
   },
 ]
 
