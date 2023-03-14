@@ -7,11 +7,11 @@ import { FiExternalLink } from "react-icons/fi";
 function ProjectsGallery() {
   const buttonStuff = {
     className: "text-indigo-600 py-2 px-4 rounded mt-3 hover:text-indigo-400 hover:scale-105 duration-200",
-    content: <FaGithub size={30} />
+    content: <FaGithub size={25} />
   }
   const buttonStuff2 = {
     className: "text-indigo-600 py-2 px-4 rounded mt-3 hover:text-indigo-400 hover:scale-105 duration-200",
-    content: <FiExternalLink size={30} />
+    content: <FiExternalLink size={25} />
   }
   return (
 
@@ -29,14 +29,14 @@ function ProjectsGallery() {
               <div key={i}>
                 <div className="container flex flex-row flex-wrap my-3 p-2">
                   <div className="flex-auto w-64 mr-10">
-                    <h5 className="text-2xl font-accent capitalize text-indigo-700">{project.name}</h5>
-                    <p className="py-4 text-yellow-500">{project.description}</p>
+                    <h5 className="text-2xl font-accent capitalize text-yellow-500">{project.name}</h5>
+                    <p className="py-4 text-zinc-500">{project.description}</p>
                     <ul className="text-zinc-500 font-accent">
-                      {project.tools[0] ? <li className="inline p-4">{project.tools[0]}</li> : ""}
-                      {project.tools[1] ? <li className="inline p-4">{project.tools[1]}</li> : ""}
-                      {project.tools[2] ? <li className="inline p-4">{project.tools[2]}</li> : ""}
-                      {project.tools[3] ? <li className="inline p-4">{project.tools[3]}</li> : ""}
-                      {project.tools[4] ? <li className="inline p-4">{project.tools[4]}</li> : ""}
+                      {project.tools[0] ? <li className="flex flex-wrap md:inline p-4">{project.tools[0]}</li> : ""}
+                      {project.tools[1] ? <li className="flex flex-wrap md:inline p-4">{project.tools[1]}</li> : ""}
+                      {project.tools[2] ? <li className="flex flex-wrap md:inline p-4">{project.tools[2]}</li> : ""}
+                      {project.tools[3] ? <li className="flex flex-wrap md:inline p-4">{project.tools[3]}</li> : ""}
+                      {project.tools[4] ? <li className="flex flex-wrap md:inline p-4">{project.tools[4]}</li> : ""}
 
                       
                     </ul>
