@@ -10,11 +10,10 @@ import About from "../About";
 function Home() {
  
   return (
-    <div name="home" className="">
+    <div name="home" className="bg-hero-pattern bg-no-repeat bg-cover bg-center bg-fixed">
 
-    <div className="bg-hero-pattern bg-no-repeat bg-cover bg-center bg-fixed">
+    <div className="">
       <Header/>
-      
       <About/>
       <ProjectsGallery/>
       <Skills/>

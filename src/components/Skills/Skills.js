@@ -1,17 +1,28 @@
 import React from "react";
-// import skillsList from "./skillsData";
+import skillsList from "./skillsData";
 
 function Skills() {
   return (
-    <div>
-      <h1 >Skills</h1>
-      <p className="text-red-500">
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div name="about" className="w-full h-screen bg-neutral-900">
+      <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+      <h1 className="text-2xl font-accent text-zinc-400">.Skills</h1>
+      <hr class="w-80 h-px my-8 bg-gray-200 border-0 dark:bg-yellow-600"></hr>
+      <ul className="flex">
+        {skillsList.map(({id, skill, icon }) => {
+          return(
+            <li key={id} className="p-6 text-zinc-500">
+              {icon}
+              <p className="pt-2">{skill}</p>
+            </li>
+          )
+        })}
+        <li>
+
+        </li>
+      </ul>
+      </div>
+        </div>
     </div>
   );
 }
