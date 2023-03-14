@@ -18,12 +18,12 @@ function ProjectsGallery() {
               <div className="container flex flex-row my-3 p-5">
                 <div className="flex-auto w-64 mr-10">
                    <h5 className="text-2xl font-accent capitalize text-indigo-700">{project.name}</h5>
-                    <p className="py-4 text-amber-100">{project.description}</p>
+                    <p className="py-4 text-yellow-500">{project.description}</p>
                   
                     <a href={project.githubLink}><Button props={buttonStuff2}/></a>
                 </div>
                 <div className="flex-auto w-32">
-                <a href={project.deployedLink}> <img className="h-22 w-22 transition duration-500 hover:scale-110 shadow-lg shadow-indigo-500/30 rounded cursor-pointer p-4 border border-indigo-500 hover:border-indigo-300" src={project.image} alt={project.name} /> </a>
+                <a href={project.deployedLink}> <img className="h-22 w-22 rounded cursor-pointer p-4 transition duration-500 hover:scale-110 shadow-lg filter grayscale hover:grayscale-0 border-0 hover:border-indigo-500" src={project.image} alt={project.name} /> </a>
                     
                   </div>
 
