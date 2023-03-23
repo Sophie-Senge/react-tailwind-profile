@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from './components/Contact';
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Home from './components/pages/Home';
@@ -6,6 +7,7 @@ import Home from './components/pages/Home';
 // import ProjectsGallery from './components/ProjectGallery/ProjectsGallery';
 // import Contact from './components/pages/Contact';
 import "./fonts/Road_Rage.otf";
+// import Contact from './components/Contact';
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
 
 <NavBar></NavBar>
    <Home></Home>
+   
   </div>
   
     

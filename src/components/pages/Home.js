@@ -3,6 +3,8 @@ import ProjectsGallery from "../ProjectGallery/ProjectsGallery";
 import Header from "../Jumbotron/Header";
 import Skills from "../Skills/Skills";
 import About from "../About";
+import Contact from "../Contact";
+import Footer from "../Footer";
 
 
 
@@ -17,6 +19,8 @@ function Home() {
       <About/>
       <ProjectsGallery/>
       <Skills/>
+      <Contact/>
+      <Footer/>
      
     </div>
   
