@@ -13,7 +13,7 @@ I tried to use best practices for file organization and using components in Reac
 
 ### Screenshot
 
-![](./src/images/Screenshot%202023-03-11%20at%205.53.40%20PM.png)
+![](./src/images/Screenshot%202023-03-23%20at%209.26.04%20PM.png)
 
 ### Links
 
