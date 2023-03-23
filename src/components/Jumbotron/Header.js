@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Button";
 import SocialTab from "./SocialTab";
+import { Link } from "react-scroll";
 
 function Header() {
   const buttonStuff = {
@@ -18,7 +19,7 @@ function Header() {
         <h2 className="pb-2 px-4 text-amber-200 text-4xl drop-shadow-2xl">
           I'm a Front End Web Developer.
         </h2>
-        <Button props={buttonStuff} />
+        <Link to="projects" spy={true} smooth={true} offset={-10} duration={500}> <Button props={buttonStuff} /></Link>
 
       </div>
      
