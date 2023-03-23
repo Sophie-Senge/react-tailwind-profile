@@ -15,7 +15,7 @@ function ProjectsGallery() {
   }
   return (
 
-    <div name="projects" className="w-full min-h-screen. bg-neutral-900 ">
+    <div id="projects" name="projects" className="w-full min-h-screen. bg-neutral-900 ">
       <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full h-full ">
 
 

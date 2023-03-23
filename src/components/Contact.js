@@ -13,7 +13,7 @@ const ContactForm = () => {
     console.log(conFom)
   }
   return (
-    <div className="container mt-5">
+    <div id="contact" className="container mt-5">
       <h2 className="mb-3">React Contact Form Component Example</h2>
       <form onSubmit={onSubmit}>
         <div className="mb-3">

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 // import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import navLinks from './linksdata';
+import {Link} from 'react-scroll';
 
 
 function NavBar() {
@@ -21,10 +22,10 @@ function NavBar() {
       </div>
 
       <ul className='hidden md:flex'>
-        {navLinks.map(({ id, name }) => (
-          <li key={id} className='px-4 cursor-pointer text-md font-accent capitalize text-indigo-700 hover:text-indigo-500 hover:scale-110 duration-200'>
+        {navLinks.map(({ id, name, section }) => (
+          <Link  to={section} spy={true} smooth={true} offset={-10} duration={500} key={id} className='px-4 cursor-pointer text-md font-accent capitalize text-indigo-700 hover:text-indigo-500 hover:scale-110 duration-200'>
             {name}
-          </li>
+          </Link>
 
 
         ))}
