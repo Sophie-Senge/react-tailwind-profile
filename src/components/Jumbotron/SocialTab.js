@@ -3,7 +3,7 @@ import socialdata from "./socialdata";
 
 function SocialTab() {
   return (
-    <div className="hidden lg:flex felx-col top-[25%] right-2 fixed">
+    <div className="hidden md:flex felx-col top-[25%] right-2 fixed">
       <ul>
         {socialdata.map(({ id, url, icon }) => {
           return (
