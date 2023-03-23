@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactForm from './components/Contact';
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Home from './components/pages/Home';
