@@ -13,7 +13,7 @@ const ContactForm = () => {
     <div id="contact" className="w-full h-screen text-center  bg-gradient-to-tr from-zinc-900 to-transparent">
       <div className='justify-center p-8 mx-auto flex flex-col w-full h-full max-w-screen-lg'>
         <div className='pb-8'>
-          <h2 className="text-2xl font-accent text-left text-zinc-400 mt-20">.Contact</h2>
+          <h2 className="text-2xl font-accent text-left text-zinc-400 mt-8">.Contact</h2>
           <hr className="w-80 h-px my-8 bg-gray-200 border-0 dark:bg-yellow-600"></hr>
 
           <h2 className="py-6 text-zinc-400">Get in touch</h2>
