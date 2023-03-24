@@ -44,7 +44,7 @@ function ProjectsGallery() {
                     <Button props={buttonStuff2} />
                   </div>
                   <div className="flex-auto w-32">
-                    <a href={project.deployedLink}> <img className="h-22 w-22 rounded cursor-pointer p-4 transition duration-500 hover:scale-110 shadow-lg filter grayscale hover:grayscale-0 border-0 hover:border-indigo-500" src={project.image} alt={project.name} /> </a>
+                    <a href={project.deployedLink}> <img className={project.className} src={project.image} alt={project.name} /> </a>
 
                   </div>
 

@@ -19,7 +19,7 @@ function NavBar() {
      
      
       <div>
-        <h1 className=' text-5xl font-road ml-2 text-yellow-300 py-4'>{signature}</h1>
+     <h1 className=' cursor-pointer text-5xl font-road ml-2 text-yellow-300 hover:text-yellow-500 py-4'><Link to='home' smooth={true} duration={500}>{signature}</Link></h1>
       </div>
 
       <ul className='hidden md:flex'>

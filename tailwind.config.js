@@ -18,6 +18,11 @@ module.exports = {
         accent: ['Fira Code', 'monospace']
 
       },
+          borderRadius: {
+            extraLarge: '12rem'
+          },
+        
+      
     },
   },
   plugins: [],
