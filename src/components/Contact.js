@@ -16,7 +16,7 @@ const ContactForm = () => {
           <h2 className="text-2xl font-accent text-left text-zinc-400 mt-8">.Contact</h2>
           <hr className="w-80 h-px my-8 bg-gray-200 border-0 dark:bg-yellow-600"></hr>
 
-          <h2 className="py-6 text-zinc-400">Get in touch</h2>
+          <h2 className="py-6 text-2xl text-zinc-400">Send me a message!</h2>
         </div>
         <div className='flex justify-center items-center'>
           <form action='https://getform.io/f/b4e5ea89-cb07-46db-b030-021cf444088b' method='POST' className='flex flex-col  md:w-1/2'>

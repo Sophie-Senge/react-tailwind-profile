@@ -12,7 +12,7 @@ import Footer from "../Footer";
 function Home() {
  
   return (
-    <div id="home" name="home" className="bg-hero-pattern bg-no-repeat md:bg-cover bg-center bg-fixed">
+    <div id="home" name="home" className="bg-hero-pattern bg-no-repeat bg-cover bg-center bg-fixed">
 
     <div className="">
       <Header/>
