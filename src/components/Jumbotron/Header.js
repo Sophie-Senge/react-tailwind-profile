@@ -37,8 +37,8 @@ function Header() {
     />
         {/* <h2 className="font-accent text-indigo-700 text-2xl drop-shadow-2xl px-4">Hi, my name is</h2> */}
      
-        <h1 className="text-6xl text-amber-400 font-bold drop-shadow-2xl p-4">Sophie Perks.</h1>
-        <h2 className="pb-4 px-4 text-amber-200 text-4xl drop-shadow-2xl">
+        <h1 className="text-6xl text-amber-400 font-bold drop-shadow-2xl tracking-wider p-4">Sophie Perks.</h1>
+        <h2 className="pb-4 px-4 font-bold text-amber-200 text-4xl tracking-wider drop-shadow-2xl">
           I'm a Front End Web Developer.
         </h2>
         <Link to="projects" spy={true} smooth={true} offset={-10} duration={500}> <Button props={buttonStuff} /></Link>

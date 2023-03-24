@@ -11,7 +11,7 @@ function Skills() {
       <ul className="flex flex-wrap md:flex-nowrap">
         {skillsList.map(({id, skill, icon }) => {
           return(
-            <li key={id} className="p-6 text-zinc-500 mt-8">
+            <li key={id} className="p-6 text-zinc-500 mt-8 hover:scale-125 duration-200">
               {icon}
               <p className="pt-2">{skill}</p>
             </li>

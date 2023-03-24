@@ -7,6 +7,7 @@ import {Link} from 'react-scroll';
 
 function NavBar() {
   const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav)
   const signature = "*SP";
 
   
@@ -32,19 +33,20 @@ function NavBar() {
       </ul>
 
       <div
-        onClick={() => setNav(!nav)}
-        className='cursor-pointer pr-4  z-10 md:hidden'>
+        onClick={handleClick}
+        className='cursor-pointer pr-4 text-yellow-500 z-10 md:hidden'>
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
 
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 font-accent text-indigo-500">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-neutral-900 font-accent text-indigo-500">
           {navLinks.map(({ id, name, section }) => (
-           <button > <li key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl">
-              {name}
-            </li> </button>
+            <li key={id}
+              className="px-4 cursor-pointer capitalize py-6 text-4xl"> <Link onClick={handleClick} to={section} spy={true} smooth={true} offset={-10} duration={500}> {name}
+              </Link>
+             
+            </li> 
           ))}
         </ul>
       )}
