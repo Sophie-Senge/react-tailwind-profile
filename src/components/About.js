@@ -13,7 +13,7 @@ function About() {
       <div className="m-10 bg-zinc-400 outline outline-none outline-offset-8 text-zinc-400">
 
   
-      <div className="m-10  bg-neutral-900 outline outline-4 outline-offset-8 text-yellow-600 rounded-tl-extraLarge rounded-br-extraLarge">
+      <div className="m-12  bg-neutral-900 outline outline-2 outline-offset-[18px] text-yellow-600 rounded-tl-extraLarge rounded-br-extraLarge">
  
 
       
