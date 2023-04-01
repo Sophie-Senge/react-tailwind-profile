@@ -2,7 +2,7 @@ import React from "react";
 import ProjectsGallery from "../ProjectGallery/ProjectsGallery";
 import Header from "../Jumbotron/Header";
 import Skills from "../Skills/Skills";
-import About from "../About";
+import About from "../Skills/about/About";
 import Contact from "../Contact";
 import Footer from "../Footer";
 
