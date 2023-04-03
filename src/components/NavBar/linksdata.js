@@ -2,17 +2,17 @@ const navLinks = [
   {
     id: 1,
     name: '.projects',
-    section: 'projects'
+    section: '/react-tailwind-profile#projects'
   },
   {
     id: 2,
     name: '.about',
-    section: 'about'
+    section: '/react-tailwind-profile#about'
   },
   {
     id: 3,
     name: '.contact',
-    section: 'contact'
+    section: '/react-tailwind-profile#contact'
   },
   // {
   //   id: 4,
