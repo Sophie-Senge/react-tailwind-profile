@@ -22,17 +22,17 @@ function changePageNext(){
 }
 
 return (
-    <div id='/resume' name='resume' className='bg-neutral-900 flex justify-center mt-10 main-container '>
-        <div className=''>
+    <div id='/resume' name='resume' className='bg-neutral-900 flex justify-center main-container '>
+        <div className='mt-20'>
         <Document file={resume} onLoadSuccess={onDocumentLoadSuccess} >
-      <Page height={650} pageNumber={pageNumber} renderTextLayer={false} renderAnnotationLayer={false}/>
+      <Page height={600} pageNumber={pageNumber} renderTextLayer={false} renderAnnotationLayer={false}/>
     </Document>
     <p className='text-white'> Page {pageNumber} of {numPages} </p>
     { pageNumber > 1 &&
     <button className= "shadow-lg shadow-indigo-500/20 text-indigo-600 border border-indigo-600 px-4 rounded mt-3 font-accent text-sm hover:text-indigo-400 hover:scale-105 duration-200"
     onClick={changePageBack}>Previous</button>}
     {pageNumber < numPages &&
-    <button className= "shadow-lg shadow-indigo-500/20 text-indigo-600 border border-indigo-600  px-4 rounded mt-3 font-accent text-sm hover:text-indigo-400 hover:scale-105 duration-200" onClick={changePageNext}>Next</button>}
+    <button className= "shadow-lg shadow-indigo-500/20 text-indigo-600 border border-indigo-600 px-4 rounded mt-3 font-accent text-sm hover:text-indigo-400 hover:scale-105 duration-200" onClick={changePageNext}>Next</button>}
     </div> 
    
     </div>

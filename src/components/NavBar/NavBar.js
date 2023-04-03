@@ -50,6 +50,7 @@ function NavBar() {
              
             </li> 
           ))}
+           <NavLink onClick={handleClick} to='/resume'><li className='px-4 py-6 text-4xl cursor-pointer text-md font-accent capitalize text-indigo-500'>.Resume</li></NavLink>
         </ul>
       )}
 </div>
