@@ -35,9 +35,9 @@ function ProjectsGallery() {
               <div key={i}>
                 <div className="container flex flex-row flex-wrap my-3 p-2">
                   <div className="flex-auto w-64 mr-10">
-                    <h5 data-aos="flip-up" className="text-2xl font-accent capitalize text-yellow-500">{project.name}</h5>
-                    <p data-aos="flip-up" className="py-4 text-zinc-500">{project.description}</p>
-                    <ul data-aos="flip-up" className="text-zinc-500 font-accent">
+                    <h5 data-aos="fade-up" className="text-2xl font-accent capitalize text-yellow-500">{project.name}</h5>
+                    <p data-aos="fade-up" className="py-4 text-zinc-500">{project.description}</p>
+                    <ul data-aos="fade-up" className="text-zinc-500 font-accent">
                       {project.tools[0] ? <li className="flex flex-wrap md:inline p-4">{project.tools[0]}</li> : ""}
                       {project.tools[1] ? <li className="flex flex-wrap md:inline p-4">{project.tools[1]}</li> : ""}
                       {project.tools[2] ? <li className="flex flex-wrap md:inline p-4">{project.tools[2]}</li> : ""}
@@ -46,11 +46,11 @@ function ProjectsGallery() {
 
                       
                     </ul>
-                    <a data-aos="flip-up" href={project.githubLink}><Button props={buttonStuff} /></a>
-                    <a data-aos="flip-up" href={project.deployedLink}><Button  props={buttonStuff2} /> </a>
+                    <a data-aos="fade-up" href={project.githubLink}><Button props={buttonStuff} /></a>
+                    <a data-aos="fade-up" href={project.deployedLink}><Button  props={buttonStuff2} /> </a>
                   </div>
                   <div className="flex-auto w-32">
-                    <a data-aos="fade-up" href={project.deployedLink}> <img className={project.className} src={project.image} alt={project.name} /> </a>
+                    <a data-aos="fade-up" href={project.deployedLink}> <img data-aos="fade-up" className={project.className} src={project.image} alt={project.name} /> </a>
 
                   </div>
 

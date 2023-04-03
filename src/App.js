@@ -12,21 +12,18 @@ import Footer from './components/Footer.jsx';
 function App() {
   return (
     <Router>
-  
-
-<NavBar/>
-  
-   <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/resume' element={<Resume/>}/>
 
 
-    
-   </Routes>
-   
-  <Footer/>
-  </Router>
-    
+      <NavBar />
+
+      <Routes>
+        <Route path='/react-tailwind-profile' element={<Home />} />
+        <Route path='/resume' element={<Resume />} />
+      </Routes>
+
+      <Footer />
+    </Router>
+
   );
 }
 

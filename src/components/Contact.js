@@ -22,15 +22,15 @@ const ContactForm = () => {
           <h2  data-aos="fade-up" className="text-2xl font-accent text-left text-zinc-400 mt-8">.Contact</h2>
           <hr  data-aos="fade-up" className="w-80 h-px my-8 bg-gray-200 border-0 dark:bg-yellow-600"></hr>
 
-          <h2 data-aos="flip-up" className="pt-6 text-2xl text-zinc-400 hover:text-indigo-700">Send me a message!</h2>
-          <p data-aos="flip-up" className='text-zinc-400 hover:text-indigo-700'>or email me directly at sophieperks@gmail.com</p>
+          <h2 data-aos="fade-up" className="pt-6 text-2xl text-zinc-400 hover:text-indigo-700">Send me a message!</h2>
+          <p data-aos="fade-up" className='text-zinc-400 hover:text-indigo-700'>or email me directly at sophieperks@gmail.com</p>
         </div>
         <div className='flex justify-center items-center'>
           <form action='https://getform.io/f/b4e5ea89-cb07-46db-b030-021cf444088b' method='POST' className='flex flex-col  md:w-1/2'>
-            <input data-aos="flip-up" type="text" name='name' placeholder='Enter your name' className='p-2 bg-transparent text-zinc-300 border-yellow-500 border-b-2 focus:outline-none' />
-            <input data-aos="flip-up" type="text" name='email' placeholder='Enter your email address' className='my-4 p-2 border-b-2 border-yellow-500 bg-transparent text-zinc-300 focus:outline-none' />
-            <textarea data-aos="flip-up" name="message" rows="7" placeholder='Enter your message' className='bg-transparent border-b-2 border-yellow-500 p-2 text-zinc-300 focus:outline-none'></textarea>
-            <Button data-aos="flip-up" props={buttonStuff} type="submit">
+            <input data-aos="fade-up" type="text" name='name' placeholder='Enter your name' className='p-2 bg-transparent text-zinc-300 border-yellow-500 border-b-2 focus:outline-none' />
+            <input data-aos="fade-up" type="text" name='email' placeholder='Enter your email address' className='my-4 p-2 border-b-2 border-yellow-500 bg-transparent text-zinc-300 focus:outline-none' />
+            <textarea data-aos="fade-up" name="message" rows="7" placeholder='Enter your message' className='bg-transparent border-b-2 border-yellow-500 p-2 text-zinc-300 focus:outline-none'></textarea>
+            <Button data-aos="fade-up" props={buttonStuff} type="submit">
             </Button>
           </form>
 
