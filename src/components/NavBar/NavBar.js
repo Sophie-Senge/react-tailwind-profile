@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import navLinks from './linksdata';
-import {Link} from 'react-scroll';
+// import {Link} from 'react-scroll';
 import { HashLink } from 'react-router-hash-link';
 
 
@@ -46,8 +46,8 @@ function NavBar() {
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-neutral-900 font-accent text-indigo-500">
           {navLinks.map(({ id, name, section }) => (
             <li key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"> <Link onClick={handleClick} to={section} spy={true} smooth={true} offset={-10} duration={500}> {name}
-              </Link>
+              className="px-4 cursor-pointer capitalize py-6 text-4xl"> <HashLink onClick={handleClick} to={section} spy={true} smooth={true} offset={-10} duration={500}> {name}
+              </HashLink>
              
             </li> 
           ))}
