@@ -4,7 +4,7 @@ import Header from "../Jumbotron/Header";
 import Skills from "../Skills/Skills";
 import About from "../about/About";
 import Contact from "../Contact";
-import Footer from "../Footer";
+
 
 
 
@@ -20,7 +20,7 @@ function Home() {
       <ProjectsGallery/>
       <Skills/>
       <Contact/>
-      <Footer/>
+      
      
     </div>
   

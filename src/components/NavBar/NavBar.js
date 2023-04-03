@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import navLinks from './linksdata';
 import {Link} from 'react-scroll';
@@ -19,17 +19,19 @@ function NavBar() {
      
      
       <div>
-     <h1 className=' cursor-pointer text-5xl font-road ml-2 text-yellow-300 hover:text-yellow-500 py-4'><Link to='home' smooth={true} duration={500}>{signature}</Link></h1>
+    <NavLink to='/'> <h1 className=' cursor-pointer text-5xl font-road ml-2 text-yellow-300 hover:text-yellow-500 py-4'>{signature}</h1></NavLink>
       </div>
 
       <ul className='hidden md:flex'>
         {navLinks.map(({ id, name, section }) => (
+         
           <Link  to={section} spy={true} smooth={true} offset={-10} duration={500} key={id} className='px-4 cursor-pointer text-md font-accent capitalize text-indigo-700 hover:text-indigo-500 hover:scale-110 duration-200'>
             {name}
           </Link>
-
+          
 
         ))}
+        <NavLink to='/resume'><li className='px-4 cursor-pointer text-md font-accent capitalize text-indigo-700 hover:text-indigo-500 hover:scale-110 duration-200'>.Resume</li></NavLink>
       </ul>
 
       <div

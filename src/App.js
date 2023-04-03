@@ -1,22 +1,27 @@
 import React from 'react';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Home from './components/pages/Home';
-// import Skills from './components/Skills/Skills';
-// import ProjectsGallery from './components/ProjectGallery/ProjectsGallery';
-// import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 import "./fonts/Road_Rage.otf";
-// import Contact from './components/Contact';
+import Footer from './components/Footer.jsx';
+
 
 
 function App() {
-  return (<div>
-
-<NavBar></NavBar>
-   <Home></Home>
-   
-  </div>
+  return (
+    <Router>
   
+
+<NavBar/>
+  
+   <Routes>
+    <Route exact path= '/' element={<Home/>}/>
+    <Route path='/resume' element={<Resume/>}/>
+   </Routes>
+   
+  <Footer/>
+  </Router>
     
   );
 }

@@ -46,8 +46,8 @@ function ProjectsGallery() {
 
                       
                     </ul>
-                    <Button data-aos="flip-up" props={buttonStuff} />
-                    <Button  props={buttonStuff2} />
+                    <a data-aos="flip-up" href={project.githubLink}><Button props={buttonStuff} /></a>
+                    <a data-aos="flip-up" href={project.deployedLink}><Button  props={buttonStuff2} /> </a>
                   </div>
                   <div className="flex-auto w-32">
                     <a data-aos="fade-up" href={project.deployedLink}> <img className={project.className} src={project.image} alt={project.name} /> </a>

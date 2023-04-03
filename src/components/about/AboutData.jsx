@@ -18,7 +18,7 @@ const AboutData = () => {
        film, photography and art. I've traveled and lived all over the world from rural 
        himalayan villages to dense bustling cites like London, New York and Beijing. 
        My diverse background has strengthened my creative and innovative problem-solving 
-       abilites and has blossemed into a passion for developing clean, user-friendly, 
+       abilites and has blossomed into a passion for developing clean, user-friendly, 
        functional code with a focus on UI and UX. In the physical, tangible world 
        I enjoy hiking the coasts of the UK, surfing the Atlantic and eating spicy ramen!
       </p>

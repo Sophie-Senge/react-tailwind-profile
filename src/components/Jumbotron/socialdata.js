@@ -7,7 +7,7 @@ const social = [
   { id: 1,
     name: "LinkedIn",
     "icon": <FaLinkedin size={30} />,
-    "url": "https://linkedin.com"
+    "url": "https://www.linkedin.com/in/sophie-perks-5b890188/"
   },
   { id: 2,
     name: "Github",

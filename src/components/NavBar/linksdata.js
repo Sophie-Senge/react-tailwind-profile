@@ -14,11 +14,12 @@ const navLinks = [
     name: '.contact',
     section: 'contact'
   },
-  {
-    id: 4,
-    name: '.resume',
-    section: 'resume'
-  },
+  // {
+  //   id: 4,
+  //   name: '.resume',
+  //   section: '/resume',
+  //   route: '/resume'
+  // },
 ]
 
 export default navLinks
