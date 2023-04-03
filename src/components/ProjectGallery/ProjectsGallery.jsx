@@ -50,7 +50,7 @@ function ProjectsGallery() {
                     <a data-aos="fade-up" href={project.deployedLink}><Button  props={buttonStuff2} /> </a>
                   </div>
                   <div className="flex-auto w-32">
-                    <a data-aos="fade-up" href={project.deployedLink}> <img data-aos="fade-up" className={project.className} src={project.image} alt={project.name} /> </a>
+                    <a data-aos="fade-up" href={project.deployedLink}> <img className={project.className} src={project.image} alt={project.name} /> </a>
 
                   </div>
 
