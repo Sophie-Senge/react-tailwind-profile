@@ -25,7 +25,7 @@ return (
     <div id='/resume' name='resume' className='bg-neutral-900 flex justify-center main-container '>
         <div className='mt-20'>
         <Document file={resume} onLoadSuccess={onDocumentLoadSuccess} >
-      <Page height={600} pageNumber={pageNumber} renderTextLayer={false} renderAnnotationLayer={false}/>
+      <Page height={600} pageNumber={pageNumber} renderTextLayer={false} renderAnnotationLayer={false} onLoadError={console.error}/>
     </Document>
     <p className='text-white'> Page {pageNumber} of {numPages} </p>
     { pageNumber > 1 &&

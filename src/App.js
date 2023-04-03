@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import Resume from './components/pages/Resume';
 import "./fonts/Road_Rage.otf";
 import Footer from './components/Footer.jsx';
+// import Contact from './components/Contact.js'
 
 
 
@@ -16,8 +17,11 @@ function App() {
 <NavBar/>
   
    <Routes>
-    <Route exact path= '/' element={<Home/>}/>
+    <Route path='/' element={<Home/>}/>
     <Route path='/resume' element={<Resume/>}/>
+
+
+    
    </Routes>
    
   <Footer/>

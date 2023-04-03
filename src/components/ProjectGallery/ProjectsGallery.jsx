@@ -26,7 +26,7 @@ function ProjectsGallery() {
 
 
         <h2 data-aos="fade-up" className="text-2xl font-accent text-zinc-400 mt-20">.Some things I've built</h2>
-        <hr data-aos="fade-up" class="w-80 h-px my-8 bg-gray-200 border-0 dark:bg-yellow-600"></hr>
+        <hr data-aos="fade-up" className="w-80 h-px my-8 bg-gray-200 border-0 dark:bg-yellow-600"></hr>
 
         {
           projects.map((project, i) => {
