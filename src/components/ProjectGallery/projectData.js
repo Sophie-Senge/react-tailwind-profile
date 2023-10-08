@@ -4,7 +4,7 @@ const projects = [
     "name": ".Artist Website",
     "image": require("../../images/saskiaswebsite.webp"),
     "description": "A webiste built for a client.",
-    "deployedLink": "https://sophie-senge.github.io/90s-quiz/",
+    "deployedLink": "https://jocular-narwhal-5aa88d.netlify.app/",
     "githubLink": "https://github.com/Sophie-Senge/Saskia-Webpage",
     "tools": [">React", ">Tailwind"],
     "className": "h-22 w-22 rounded-tr-extraLarge rounded-bl-extraLarge cursor-pointer p-4 transition duration-500 hover:scale-110 shadow-lg filter grayscale hover:grayscale-0 border-0 hover:border-indigo-500"
