@@ -32,7 +32,7 @@ function NavBar() {
           
 
         ))}
-        <NavLink to='resume'><li className='px-4 cursor-pointer text-md font-accent capitalize text-indigo-700 hover:text-indigo-500 hover:scale-110 duration-200'>.Resume</li></NavLink>
+        {/* <NavLink to='resume'><li className='px-4 cursor-pointer text-md font-accent capitalize text-indigo-700 hover:text-indigo-500 hover:scale-110 duration-200'>.Resume</li></NavLink> */}
       </ul>
 
       <div
