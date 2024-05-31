@@ -13,10 +13,10 @@ function Skills() {
         <div className="pb-8">
       <h1 data-aos="fade-up" className="text-2xl font-accent text-zinc-400">.Skills</h1>
       <hr data-aos="fade-up" className="w-80 h-px my-8 bg-gray-200 border-0 dark:bg-yellow-600"></hr>
-      <ul className="flex flex-wrap md:flex-nowrap">
+      <ul className="flex flex-wrap ">
         {skillsList.map(({id, skill, icon }) => {
           return(
-            <li data-aos="flip-up" key={id} className="p-6 text-zinc-500 mt-8 hover:scale-125 duration-200">
+            <li data-aos="flip-up" key={id} className="p-6 text-zinc-500 mt-8 hover:scale-125 duration-100">
               {icon}
               <p className="pt-2">{skill}</p>
             </li>

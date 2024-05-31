@@ -1,4 +1,4 @@
-import { SiHtml5, SiAdobepremierepro, SiBootstrap, SiCss3, SiJavascript, SiReact, SiGithub, SiJquery, SiTailwindcss } from "react-icons/si";
+import { SiHtml5, SiAdobepremierepro, SiBootstrap, SiCss3, SiJavascript, SiReact, SiGithub, SiJquery, SiTailwindcss, SiPython, SiGnubash, SiSass, SiFigma    } from "react-icons/si";
 
 const skillsList = [
 
@@ -24,29 +24,50 @@ const skillsList = [
   },
   {
     "id": 5,
+    "skill": "Python",
+    "icon": <SiPython size={30} />,
+  },
+  {
+    "id": 6,
     "skill": "React",
     "icon": <SiReact size={30} />,
   },
   {
-    "id": 6,
+    "id": 7,
     "skill": "Github",
     "icon": <SiGithub size={30} />,
   },
   {
-    "id": 7,
+    "id": 8,
     "skill": "Jquery",
     "icon": <SiJquery size={30} />,
   },
   {
-    "id": 8,
+    "id": 9,
     "skill": "Tailwind",
     "icon": <SiTailwindcss size={30} />,
   },
   {
-    "id": 9,
+    "id": 10,
+    "skill": "Bash",
+    "icon": <SiGnubash size={30} />,
+  },
+  {
+    "id": 11,
+    "skill": "SCSS",
+    "icon": <SiSass size={30} />,
+  },
+  {
+    "id": 12,
+    "skill": "Figma",
+    "icon": <SiFigma size={30} />,
+  },
+  {
+    "id": 13,
     "skill": "Adobe Premier Pro",
     "icon": <SiAdobepremierepro size={30} />,
   },
+  
 
 ];
 
